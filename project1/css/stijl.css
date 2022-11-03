@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: cambria;
+    background-color: azure;
+    font-size: large
+}
+p, h1, table, form, dl, iframe {
+    margin: 50px
+}
+h1 {
+    text-align: center;
+}
+img {
+    border-radius: 25px
+}
+table tr td {
+    padding: 10px
+}
+dl dt, dl dd {
+    padding: 10px
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+li {
+    float: left
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 25px 18px;
+    color: black;
+    text-decoration: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+li a:hover:not(.active) {
+    background-color: aquamarine
+}
+iframe {
+    width: 90%;
+    height: 450px
+}
+.container {
+    background-color: #addade;
+    margin: auto;
+    width: 90%;
+    border-radius: 50px
+}
+.active {
+    background-color: cadetblue;
+    color: white;
+}
+.header {
+    border-bottom: 20px solid;
+    border-color: #5b93e1
+}
+.headerimg {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    height: 150px
+}
+.footer {
+    clear: both;
+    border-top: 5px solid;
+    border-color: #5b93e1;
+    text-align: right;
+    padding-bottom: 1px
+}
+.fotorechts {
+    float:right;
+    margin: 20px
+    
+}
+.fotolinks {
+    float:left;
+    margin: 20px
+}
+.row {
+    content: "";
+  display: table;
+    clear: both
+}
+.column1 {
+    float: left;
+    width: 40%;
+    padding: 10px
+}
+.column2 {
+    float: right;
+    width: 60%;
+    padding: 10px
+}
+.container1 {
+    position: relative;
+    width: 50%
+  }
+  
+  .image {
+    display: block;
+    width: 90%;
+    height: auto;
+    max-width: 400px
+  }
+  
+  .overlay {
+    position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 90%;
+  max-width: 400px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
